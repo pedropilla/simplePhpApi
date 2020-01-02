@@ -17,8 +17,6 @@ services:
     image: php:fpm
     volumes:
       - "./app:/var/www/html"
-    ports:
-      - "9000:9000"
     restart: always
 
   # Composer
